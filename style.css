@@ -182,16 +182,20 @@
   }
   
   /* Responsive Design */
-  @media (max-width: 768px) {
-    nav{
+  @media (max-width: 768px)
+   {
+      nav{
         flex-direction: column;
         
-    }
-    .nav-links{
+        }
+       .nav-links
+       {
         flex-direction: column;
         margin-top:10px;
-    }form{
+       }
+       form
+       {
         width:90%
-    }
+      }   
   }
   
